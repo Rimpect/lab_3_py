@@ -1,0 +1,43 @@
+2025-04-09 17:42:10,601 INFO: Microblog startup [in C:\Users\amiro\flask_project\app\__init__.py:43]
+2025-04-09 17:44:26,371 INFO: Microblog startup [in C:\Users\amiro\flask_project\app\__init__.py:43]
+2025-04-10 10:48:57,744 INFO: Microblog startup [in C:\Users\amiro\flask_project\app\__init__.py:43]
+2025-04-10 10:49:09,592 INFO: Microblog startup [in C:\Users\amiro\flask_project\app\__init__.py:43]
+2025-04-10 11:14:50,773 INFO: Microblog startup [in C:\Users\amiro\flask_project\app\__init__.py:43]
+2025-04-10 11:35:13,502 INFO: Microblog startup [in C:\Users\amiro\flask_project\app\__init__.py:43]
+2025-04-10 12:30:07,297 INFO: Microblog startup [in C:\Users\amiro\flask_project\app\__init__.py:43]
+2025-04-10 17:07:19,083 INFO: Microblog startup [in C:\Users\amiro\flask_project\app\__init__.py:43]
+2025-04-10 18:10:51,255 INFO: Microblog startup [in C:\Users\amiro\flask_project\app\__init__.py:43]
+2025-04-10 18:24:44,283 INFO: Microblog startup [in C:\Users\amiro\flask_project\app\__init__.py:45]
+2025-04-10 18:31:18,385 INFO: Microblog startup [in C:\Users\amiro\flask_project\app\__init__.py:45]
+2025-04-10 18:34:13,656 INFO: Microblog startup [in C:\Users\amiro\flask_project\app\__init__.py:45]
+2025-04-10 18:36:48,454 INFO: Microblog startup [in C:\Users\amiro\flask_project\app\__init__.py:45]
+2025-04-10 18:37:29,490 INFO: Microblog startup [in C:\Users\amiro\flask_project\app\__init__.py:45]
+2025-04-10 19:16:50,668 INFO: Microblog startup [in C:\Users\amiro\flask_project\app\__init__.py:45]
+2025-04-10 19:20:01,418 INFO: Microblog startup [in C:\Users\amiro\flask_project\app\__init__.py:45]
+2025-04-10 19:20:43,113 INFO: Microblog startup [in C:\Users\amiro\flask_project\app\__init__.py:45]
+2025-04-10 19:22:50,631 INFO: Microblog startup [in C:\Users\amiro\flask_project\app\__init__.py:45]
+2025-04-10 19:29:21,732 ERROR: Exception on /explore [GET] [in C:\Users\amiro\flask_project\venv\Lib\site-packages\flask\app.py:875]
+Traceback (most recent call last):
+  File "C:\Users\amiro\flask_project\venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\amiro\flask_project\venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\amiro\flask_project\venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\amiro\flask_project\venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\amiro\flask_project\venv\Lib\site-packages\flask_login\utils.py", line 290, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+TypeError: explore() missing 1 required positional argument: 'current_user'
+2025-04-10 19:31:58,701 INFO: Microblog startup [in C:\Users\amiro\flask_project\app\__init__.py:45]
+2025-04-10 20:49:00,287 INFO: Microblog startup [in C:\Users\amiro\flask_project\app\__init__.py:45]
+2025-04-10 20:51:43,900 INFO: Microblog startup [in C:\Users\amiro\flask_project\app\__init__.py:45]
+2025-04-10 20:57:47,409 INFO: Microblog startup [in C:\Users\amiro\flask_project\app\__init__.py:45]
+2025-04-10 21:08:42,528 INFO: Microblog startup [in C:\Users\amiro\flask_project\app\__init__.py:45]
+2025-04-11 10:23:18,433 INFO: Microblog startup [in C:\Users\amiro\flask_project\app\__init__.py:45]
+2025-04-11 11:33:29,766 INFO: Microblog startup [in C:\Users\amiro\flask_project\app\__init__.py:45]
+2025-05-15 20:49:01,001 INFO: Microblog startup [in C:\Users\Maksim\Desktop\flask_project\app\__init__.py:45]
+2025-05-15 20:56:23,825 INFO: Microblog startup [in C:\Users\Maksim\Desktop\flask_project\app\__init__.py:45]
+2025-05-15 21:02:43,603 INFO: Microblog startup [in C:\Users\Maksim\Desktop\flask_project\app\__init__.py:45]
